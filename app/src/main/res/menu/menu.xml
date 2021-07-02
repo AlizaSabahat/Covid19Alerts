@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/locationicon"
+    android:title="Location"
+    android:icon="@drawable/ic_baseline_edit_location_24"
+    app:showAsAction="always"
+    />
+<item
+    android:id="@+id/helpicon"
+    android:title="Help"
+    android:icon="@drawable/ic_baseline_help_center_24"
+    app:showAsAction="always"
+    />
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"
+        />
+
+
+
+
+
+
+
+
+
+</menu>
