@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="220dp"
+        android:layout_height="110dp"
+        app:lottie_fileName="virusanime.json"
+        android:scaleType="fitCenter"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_marginTop="285dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="82dp"
+        android:scaleX="2"
+        android:scaleY="2"
+
+
+        >
+    </com.airbnb.lottie.LottieAnimationView>
+    <TextView
+        android:id="@+id/txtCovidAlerts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"
+        android:text="Covid19 Alerts"
+        android:fontFamily="@font/adamina"
+        android:textColor="#9e1517"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        >
+
+    </TextView>
+
+
+
+
+
+
+</RelativeLayout>
