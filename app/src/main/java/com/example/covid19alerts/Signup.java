@@ -43,7 +43,7 @@ TextInputLayout edtName, edtEmail, edtPassword;
                     if(task.isSuccessful()){
                           Intent intent= new Intent(getApplicationContext(),Dashboard.class);
                         startActivity(intent);
-
+                        finish();
                     }
                     else
                         Toast.makeText(Signup.this, task.getException().getMessage(),Toast.LENGTH_LONG).show();

@@ -16,4 +16,127 @@
        app:titleMargin="10dp"
        app:titleMarginStart="10dp"
        />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_below="@+id/toolbar"
+
+       android:weightSum="5"
+       android:orientation="vertical"
+       >
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+
+          android:layout_weight="2"
+          ></LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+
+          android:layout_weight="3"
+          >
+         <GridLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:rowCount="2"
+             android:columnCount="2"
+             android:orientation="horizontal"
+             >
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardSymtopms"
+                android:layout_height="0dp"
+                android:layout_width="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="13dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/purple_500"
+
+                >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Symptoms"
+                   android:layout_gravity="center"
+                   android:textSize="20dp"
+                   android:textColor="@color/white"
+                   android:fontFamily="@font/adamina"
+                   android:drawableTop="@drawable/symptoms"
+                   android:drawablePadding="20dp"
+
+                   />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_height="0dp"
+                android:layout_width="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="13dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/purple_500"
+
+                >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Precautions"
+                   android:layout_gravity="center"
+                   android:textSize="20dp"
+                   android:textColor="@color/white"
+                   android:fontFamily="@font/adamina"
+
+                   />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_height="0dp"
+                android:layout_width="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="13dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/purple_500"
+
+                >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Treatments"
+                   android:layout_gravity="center"
+                   android:textSize="20dp"
+                   android:textColor="@color/white"
+                   android:fontFamily="@font/adamina"
+
+                   />
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_height="0dp"
+                android:layout_width="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                app:cardCornerRadius="13dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/purple_500"
+
+                >
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Mental Health"
+                   android:layout_gravity="center"
+                   android:textSize="20dp"
+                   android:textColor="@color/white"
+                   android:fontFamily="@font/adamina"
+
+                   />
+
+            </androidx.cardview.widget.CardView>
+         </GridLayout>
+      </LinearLayout>
+   </LinearLayout>
 </RelativeLayout>
