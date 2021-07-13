@@ -5,6 +5,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Symptoms">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbarSymptoms"
+        android:background="@color/purple_500"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+        app:title="Symptoms"
+        app:titleTextColor="@color/white"
+        app:titleMargin="10dp"
+        app:titleMarginStart="10dp"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:id="@+id/veiw1"
+        android:layout_below="@+id/toolbarSymptoms"
+        android:background="@color/white"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/veiw1"
+        android:layout_marginHorizontal="5dp"
+        app:cardCornerRadius="10dp"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbarSymptoms"
+        android:text="Most Comman Symptoms"
+        android:textColor="@color/white"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:textSize="20dp"
+        android:paddingVertical="15dp"
+        android:background="@color/purple_500"
+        />
+    </androidx.cardview.widget.CardView>
+
+
 
 
 

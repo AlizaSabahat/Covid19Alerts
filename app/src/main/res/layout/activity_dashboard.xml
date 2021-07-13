@@ -63,7 +63,7 @@
                    android:textSize="20dp"
                    android:textColor="@color/white"
                    android:fontFamily="@font/adamina"
-                   android:drawableTop="@drawable/symptoms"
+                   android:drawableTop="@drawable/fever"
                    android:drawablePadding="20dp"
 
                    />
@@ -71,6 +71,7 @@
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/cardPrecautions"
                 android:layout_height="0dp"
                 android:layout_width="0dp"
                 android:layout_rowWeight="1"
@@ -78,7 +79,6 @@
                 app:cardCornerRadius="13dp"
                 android:layout_margin="10dp"
                 app:cardBackgroundColor="@color/purple_500"
-
                 >
                <TextView
                    android:layout_width="wrap_content"
@@ -88,11 +88,15 @@
                    android:textSize="20dp"
                    android:textColor="@color/white"
                    android:fontFamily="@font/adamina"
+                   android:drawableTop="@drawable/distance"
+                   android:drawablePadding="20dp"
 
                    />
 
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
+                android:id="@+id/cardTreatments"
                 android:layout_height="0dp"
                 android:layout_width="0dp"
                 android:layout_rowWeight="1"
@@ -110,11 +114,14 @@
                    android:textSize="20dp"
                    android:textColor="@color/white"
                    android:fontFamily="@font/adamina"
+                   android:drawableTop="@drawable/treatment"
+                   android:drawablePadding="20dp"
 
                    />
 
             </androidx.cardview.widget.CardView>
             <androidx.cardview.widget.CardView
+                android:id="@+id/cardMentalhealth"
                 android:layout_height="0dp"
                 android:layout_width="0dp"
                 android:layout_rowWeight="1"
@@ -132,6 +139,9 @@
                    android:textSize="20dp"
                    android:textColor="@color/white"
                    android:fontFamily="@font/adamina"
+                   android:drawableTop="@drawable/mentalhealth"
+                   android:drawablePadding="20dp"
+
 
                    />
 
